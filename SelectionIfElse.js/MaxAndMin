@@ -1,0 +1,15 @@
+let a =3, b = 4, c = 6
+
+let result1 = a + b * c
+let result2 = c + a / b
+let result3 = a % b + c 
+let result4 = a * b + c
+
+let result = [result1, result2, result3, result4]
+
+let max = Math.max(...result)
+let min = Math.min(...result)
+
+console.log(result)
+console.log("Minimum " +  min)
+console.log("Maximum " + max)
